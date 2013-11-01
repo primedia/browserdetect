@@ -1,0 +1,9 @@
+{
+  "name": "browserdetect",
+  "main": "browserdetect.js",
+  "version": "1.0.0",
+  "authors": [
+    "RentPath"
+  ],
+  "private": true
+}
