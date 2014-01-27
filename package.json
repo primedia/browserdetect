@@ -1,0 +1,22 @@
+{
+  "name": "browserdetect",
+  "version": "1.0.1",
+  "description": "Detects user's browser",
+  "homepage": "https://github.com/primedia/browserdetect",
+  "jam": {
+    "main": "browserdetect.js",
+    "include": [
+      "browserdetect.js"
+    ]
+  },
+  "author": {
+    "name": "Primedia"
+  },
+  "repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/primedia/browserdetect.git"
+    }
+  ],
+  "github": "https://github.com/primedia/browserdetect.git"
+}
