@@ -1,4 +1,4 @@
-define ->
+define 'browserdetect', ->
   class BrowserDetect
     @platform: ->
       os             = BrowserDetect.searchString(BrowserDetect.dataOS()) or "An unknown OS"
