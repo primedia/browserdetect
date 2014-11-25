@@ -1,14 +1,8 @@
 {
   "name": "browserdetect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Detects user's browser",
   "homepage": "https://github.com/primedia/browserdetect",
-  "jam": {
-    "main": "browserdetect.js",
-    "include": [
-      "browserdetect.js"
-    ]
-  },
   "author": {
     "name": "Primedia"
   },
