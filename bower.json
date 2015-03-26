@@ -1,6 +1,6 @@
 {
   "name": "browserdetect",
-  "main": "browserdetect.js",
+  "main": "dist/browserdetect.js",
   "version": "1.0.2",
   "authors": [
     "RentPath"
@@ -9,7 +9,10 @@
   "private": true,
   "dependencies": {
     "jquery": "2.x.x",
-    "jasmine-jquery": "2.0.x",
     "requirejs": "2.1.5"
+  },
+  "devDependencies": {
+    "jasmine-jquery": "2.0.x"
   }
+
 }

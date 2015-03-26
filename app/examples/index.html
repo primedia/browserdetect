@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>browserDetect</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <script type='text/javascript' src="../bower_components/requirejs/require.js"></script>
+    <script>
+      require.config({
+        baseUrl: '../',
+        paths: {
+          jquery: 'bower_components/jquery/dist/jquery'
+        }
+      });
+    </script>
+    <script type='text/javascript'>
+      require(["../dist/browserdetect"], function(browserDetect){
+          window.browserDetect = browserDetect;
+          // var platform = browserDetect.platform();
+          // console.log(platform);
+          // alert(browserDetect.platform().browser)
+      });
+    </script>
+
+  </head>
+  <body>
+    <h1>browserdetect demo</h1>
+    <p>open your javascript console to see information about the browser</p>
+
+  </body>
+</html>
+
