@@ -5,6 +5,20 @@
   "authors": [
     "RentPath"
   ],
+  "ignore": [
+    ".gitignore",
+    ".jshintrc",
+    "package.json",
+    "README.md",
+    "lib",
+    "test",
+    "app",
+    "vendor",
+    "gulpfile.coffee",
+    "karma.conf.coffee",
+    "require.build.js",
+    "dist/shared"
+  ],
   "license": "MIT",
   "private": true,
   "dependencies": {
