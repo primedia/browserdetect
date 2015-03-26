@@ -1,4 +1,4 @@
-define(['browserdetect'], function() {
+define(['browser-detect'], function() {
   var BrowserDetect;
   return BrowserDetect = (function() {
     function BrowserDetect() {}
