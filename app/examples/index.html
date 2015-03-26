@@ -10,14 +10,14 @@
       require.config({
         paths: {
           jquery: 'bower_components/jquery/dist/jquery',
-          browserdetect: '../dist/broswerdetect'
+          browserdetect: '../../dist/browserdetect'
         }
       });
       require(["browserdetect"], function(detect){
-      //     window.browserDetect = browserDetect;
-      //     // var platform = browserDetect.platform();
-      //     // console.log(platform);
-      //     // alert(browserDetect.platform().browser)
+           window.browserDetect = browserDetect;
+            var platform = browserDetect.platform();
+            console.log(platform);
+            alert(browserDetect.platform().browser)
       });
     </script>
     <script type='text/javascript'>
