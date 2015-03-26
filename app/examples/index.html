@@ -14,7 +14,7 @@
         }
       });
       require(["browserdetect"], function(detect){
-           window.browserDetect = browserDetect;
+           window.browserDetect = detect;
             var platform = browserDetect.platform();
             console.log(platform);
             alert(browserDetect.platform().browser)
