@@ -15,7 +15,7 @@ require.config
   baseUrl: "/base"
 
   paths: {
-    'browserdetect': 'app/coffeescript'
+    'browser-detect': 'app/coffeescript/browser-detect',
     'jquery': 'app/bower_components/jquery/jquery'
   }
 
