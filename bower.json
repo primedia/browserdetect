@@ -1,7 +1,7 @@
 {
   "name": "browserdetect",
   "main": "dist/browserdetect.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors": [
     "RentPath"
   ],

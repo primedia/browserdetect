@@ -1,6 +1,6 @@
 {
   "name": "browser-detect",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "detect popular browsers and versions",
   "license": "MIT",
   "repository": "rentpath/browserdetect",
