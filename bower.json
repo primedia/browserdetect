@@ -8,6 +8,8 @@
   "ignore": [
     ".gitignore",
     ".jshintrc",
+    ".bowerrc",
+    ".editorconfig",
     "package.json",
     "README.md",
     "lib",
