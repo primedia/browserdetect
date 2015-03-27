@@ -53,11 +53,11 @@ define(['browser-detect'], function() {
     };
 
     BrowserDetect.isExplorer = function() {
-      return BrowserDetect.platform().browser === 'explorer';
+      return this.platform().browser === 'explorer';
     };
 
     BrowserDetect.isExplorer8 = function() {
-      return BrowserDetect.isExplorer() && BrowserDetect.platform().version === '8.0';
+      return this.isExplorer() && this.platform().version === '8.0';
     };
 
     BrowserDetect.dataBrowser = function(data) {
