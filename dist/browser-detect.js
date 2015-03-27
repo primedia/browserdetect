@@ -52,6 +52,14 @@ define(['browser-detect'], function() {
       return parseFloat(dataString.substring(index + versionLabel.length + 1));
     };
 
+    BrowserDetect.isExplorer = function() {
+      return BrowserDetect.platform().browser === 'explorer';
+    };
+
+    BrowserDetect.isExplorer8 = function() {
+      return BrowserDetect.isExplorer() && BrowserDetect.platform().version === '8.0';
+    };
+
     BrowserDetect.dataBrowser = function(data) {
       return data || [
         {

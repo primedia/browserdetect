@@ -30,6 +30,12 @@ define ['browser-detect'], ->
       return if index == -1
       return parseFloat(dataString.substring(index + versionLabel.length + 1))
 
+    @isExplorer: ->
+      return BrowserDetect.platform().browser == 'explorer'
+
+    @isExplorer8: ->
+      return BrowserDetect.isExplorer() && BrowserDetect.platform().version == '8.0'
+
     @dataBrowser: (data) ->
       data || [
         {
