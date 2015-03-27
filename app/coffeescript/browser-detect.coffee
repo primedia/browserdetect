@@ -1,4 +1,4 @@
-define 'browserdetect', ->
+define ['browser-detect'], ->
   class BrowserDetect
     @platform: ->
       os             = BrowserDetect.searchString(BrowserDetect.dataOS()) or "An unknown OS"
@@ -29,6 +29,12 @@ define 'browserdetect', ->
       index = dataString.indexOf(versionLabel)
       return if index == -1
       return parseFloat(dataString.substring(index + versionLabel.length + 1))
+
+    @isExplorer: ->
+      return @platform().browser == 'explorer'
+
+    @isExplorer8: ->
+      return @isExplorer() && @platform().version == '8.0'
 
     @dataBrowser: (data) ->
       data || [

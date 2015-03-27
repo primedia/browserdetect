@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>browserDetect</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <script type='text/javascript' src="../bower_components/requirejs/require.js"></script>
+    <script type='text/javascript'>
+      require.config({
+        paths: {
+          "jquery": "bower_components/jquery/dist/jquery",
+          "browser-detect": "../../dist/browser-detect"
+        }
+      });
+      require(["browser-detect"], function(detect){
+           window.browserDetect = detect;
+            var platform = browserDetect.platform();
+            console.log(platform);
+            alert(browserDetect.platform().browser);
+
+            var ie = browserDetect.isExplorer();
+            console.log("Is this IE? " + ie);
+            var ie8 = browserDetect.isExplorer8();
+            console.log("Is this IE 8? " + ie8);
+      });
+    </script>
+    <script type='text/javascript'>
+    </script>
+
+  </head>
+  <body>
+    <h1>browserdetect demo</h1>
+    <p>open your javascript console to see information about the browser</p>
+
+  </body>
+</html>
+
