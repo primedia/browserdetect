@@ -17,7 +17,12 @@
            window.browserDetect = detect;
             var platform = browserDetect.platform();
             console.log(platform);
-            alert(browserDetect.platform().browser)
+            alert(browserDetect.platform().browser);
+
+            var ie = browserDetect.isExplorer();
+            console.log("Is this IE? " + ie);
+            var ie8 = browserDetect.isExplorer8();
+            console.log("Is this IE 8? " + ie8);
       });
     </script>
     <script type='text/javascript'>
