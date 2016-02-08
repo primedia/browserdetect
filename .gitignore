@@ -1,12 +1,18 @@
-.DS_Store
-.tmp/**
-.envrc
-*.orig
-*.map
-*~
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by istanbul
+coverage
+
+# Dependency directory
 node_modules
-app/bower_components
-# Vim
-*.swp
-*.swo
-**/npm-debug.log
+
+# Optional npm cache directory
+.npm

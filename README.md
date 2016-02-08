@@ -1,5 +1,5 @@
 # browserdetect.js
-a reusable browserdetect component for popular browsers
+a reusable browser detect component for popular browsers
 
 detects:
 
@@ -10,5 +10,3 @@ detects:
 # npm tasks
 
 use `npm run` to see a list of available tasks for testing and launching local server
-
-
